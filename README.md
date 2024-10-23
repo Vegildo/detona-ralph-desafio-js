@@ -3,7 +3,7 @@ Olá, meu nome é Leonardo Braga. E esse é o desafio para o bootcamp da RiHappy
 
 ## Awesome JSGame Detona Ralph
 
-![JSGame Detona Ralph Logo](https://github.com/digitalinnovationone/jsgame-detona-ralph/raw/main/assets/images/logo.png)
+![JSGame Detona Ralph Logo](https://github.com/Vegildo/detona-ralph-desafio-js/blob/master/src/images/ralph.png)
 
 
 Bem-vindo ao **JSGame Detona Ralph**! Neste repositório, você encontrará um jogo divertido baseado no famoso filme "Detona Ralph". Este projeto não apenas oferece entretenimento, mas também demonstra várias técnicas avançadas de desenvolvimento de jogos em JavaScript.
