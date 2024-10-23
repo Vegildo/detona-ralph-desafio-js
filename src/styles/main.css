@@ -1,0 +1,107 @@
+@charset "UTF-8";
+
+:root {
+    font-size: 62.5%; /* Transformando 1rem em 1px */
+    --background-color: #030303;
+    --white-color: #FFFFFF; 
+    --red-color: #EB1F1A;
+    --blue-color: #416B5D;
+    --brown-color: #CD5A17;
+    --gold-color: #EBDA1A;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url(../images/wall.png);
+
+    font-size: 1.6rem;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    height: 9rem;
+    width: 100%;
+    background-color: var(--background-color);
+    color: var(--white-color);
+    border-bottom: 0.5rem solid var(--brown-color);   
+}
+
+.menu-lives {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-time h2,
+.menu-score h2 {
+    text-align: center;
+}
+
+.menu-time h2:nth-child(2),
+.menu-score h2:nth-child(2) { /* Dessa forma pegamos os segundos elementos filhos das divs menu-time e menu-score */
+  margin-top: 1.6rem;
+}
+
+.result {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.6rem;
+    color: var(--white-color);
+}
+
+
+.panel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.6rem;
+    /* border: 1px solid var(--red-color); Foi inserida só para se localizar, no começo do projeto */
+
+}
+
+.square {
+    width: 15rem;
+    height: 15rem;
+    border: 1px solid var(--background-color);
+    background-color: var(--brown-color);
+}
+
+.enemy {
+    background-image: url("../images/ralph.png");
+    background-size: cover;
+}
+
+/* .button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+    color: var(--white-color);
+}
+
+#start {
+    margin-top: 1.6rem;
+    padding: 1rem;
+    background: transparent;
+    border: 0.01rem solid var(--gold-color);
+    border-radius: 0.5rem;
+    box-shadow: 0 0 0.5rem var(--gold-color);
+    font-size: 1.6rem;
+    color: var(--white-color);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+} */
+
+
+
+@media screen and (max-width: 650px) {
+    .container {
+        font-size: 1.2rem;
+    }
+}
